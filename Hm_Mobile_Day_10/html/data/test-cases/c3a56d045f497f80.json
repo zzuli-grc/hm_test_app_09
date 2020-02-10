@@ -1,0 +1,61 @@
+{
+  "uid" : "c3a56d045f497f80",
+  "name" : "test_hm_01.TestHm.test_03",
+  "fullName" : "Script.test_hm_01.TestHm.test_03",
+  "historyId" : "943a40c76c01926bdcdfa0d7cdeb69a6",
+  "time" : {
+    "start" : 1581333281613,
+    "stop" : 1581333281614,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "liuhuajianMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "thread",
+    "value" : "28107-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Script"
+  }, {
+    "name" : "testClass",
+    "value" : "Script"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_hm_01.TestHm.test_03"
+  }, {
+    "name" : "package",
+    "value" : "Script"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3a56d045f497f80.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Feb 10 19:14:41 CST 2020","Mon Feb 10 19:14:41 CST 2020","62","","Script","","Script","test_hm_01.TestHm.test_01[3-2-8]","test_hm_01.TestHm.test_01[3-2-8]",""
+"passed","Mon Feb 10 19:14:41 CST 2020","Mon Feb 10 19:14:41 CST 2020","3","","Script","","Script","test_hm_01.TestHm.test_01[1-2-3]","test_hm_01.TestHm.test_01[1-2-3]",""
+"passed","Mon Feb 10 19:14:41 CST 2020","Mon Feb 10 19:14:41 CST 2020","0","","Script","","Script","test_hm_01.TestHm.test_02","test_hm_01.TestHm.test_02",""
+"passed","Mon Feb 10 19:14:41 CST 2020","Mon Feb 10 19:14:41 CST 2020","1","","Script","","Script","test_hm_01.TestHm.test_03","test_hm_01.TestHm.test_03",""
+"passed","Mon Feb 10 19:14:41 CST 2020","Mon Feb 10 19:14:41 CST 2020","1","","Script","","Script","test_hm_01.TestHm.test_01[2-5-7]","test_hm_01.TestHm.test_01[2-5-7]",""

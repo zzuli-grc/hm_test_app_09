@@ -1,0 +1,67 @@
+{
+  "uid" : "4cf189d9317e51ec",
+  "name" : "test_hm_01.TestHm.test_01[3-2-8]",
+  "fullName" : "Script.test_hm_01.TestHm.test_01[3-2-8]",
+  "historyId" : "4ebc497dfb1f9e334425ea2c33ac064a",
+  "time" : {
+    "start" : 1581333281545,
+    "stop" : 1581333281607,
+    "duration" : 62
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert (3 + 2) == 8",
+  "statusTrace" : "self = <Script.test_hm_01.TestHm object at 0x108c843d0>, a = 3, b = 2, c = 8\n\n    @pytest.mark.parametrize(\"a, b, c\", read_test_hm_data())\n    def test_01(self, a, b, c):\n>       assert a + b == c\nE       assert (3 + 2) == 8\n\nScript/test_hm_01.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "liuhuajianMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "28107-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "Script"
+  }, {
+    "name" : "testClass",
+    "value" : "Script"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_hm_01.TestHm.test_01[3-2-8]"
+  }, {
+    "name" : "package",
+    "value" : "Script"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4cf189d9317e51ec.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,5 @@
+import allure
 import pytest
-import yaml
 from Base.get_yaml import GetYaml
 
 
@@ -17,6 +17,27 @@ class TestHm(object):
     def test_01(self, a, b, c):
         assert a + b == c
 
+    @allure.step("测试步骤")
+    def test_02(self):
+        allure.attach("txt文件名字", "txt文件内容")
+        assert True
 
-if __name__ == '__main__':
-    read_test_hm_data()
+    @pytest.allure.severity(pytest.allure.severity_level.BLOCKER)
+    def test_03(self):
+        assert False
+
+    @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
+    def test_03(self):
+        assert True
+
+    @pytest.allure.severity(pytest.allure.severity_level.NORMAL)
+    def test_03(self):
+        assert True
+
+    @pytest.allure.severity(pytest.allure.severity_level.MINOR)
+    def test_03(self):
+        assert False
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test_03(self):
+        assert True

@@ -1,5 +1,7 @@
 [
   "Script/test_hm_01.py::TestHm::()::test_01[1-2-3]",
   "Script/test_hm_01.py::TestHm::()::test_01[2-5-7]",
-  "Script/test_hm_01.py::TestHm::()::test_01[3-2-8]"
+  "Script/test_hm_01.py::TestHm::()::test_01[3-2-8]",
+  "Script/test_hm_01.py::TestHm::()::test_02",
+  "Script/test_hm_01.py::TestHm::()::test_03"
 ]
