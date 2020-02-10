@@ -1,0 +1,37 @@
+# 大小写敏感
+info:
+  name: 李四
+  age: 12
+Info:
+  name: 王五
+  age: 14
+# 列表
+data:
+  - 1
+  - 2
+  - 9
+# 布尔值
+bool1: true
+bool2: false
+bool3: True
+bool4: False
+bool5: TRUE
+bool6: FALSE
+# 整数和浮点数
+int: 100
+float: 10.6
+# 空
+non: null
+non1: Null
+non2: NULL
+datal: ~
+# 日期类型
+date: 2020-02-10 17:01:39
+# 锚点
+my_info: &data # 锚点定义方式
+  name: 张三
+  age: 23
+addrise:
+  <<: *data # 锚点的定义方式
+my_addrise:
+  <<: *data
